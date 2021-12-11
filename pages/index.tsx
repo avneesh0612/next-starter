@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{" "}
           <a className="text-blue-600" href="https://nextjs.org">
@@ -67,23 +67,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <Image
-            width={100}
-            height={60}
-            objectFit="contain"
-            src="/vercel.svg"
-            alt="Vercel Logo"
-          />
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
