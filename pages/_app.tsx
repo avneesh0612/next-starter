@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextNProgress color="#000" options={{ showSpinnner: false }} />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
