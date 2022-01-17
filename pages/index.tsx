@@ -1,7 +1,8 @@
 import Head from "next/head";
+import { FC } from "react";
 import Footer from "../components/Footer";
 
-export default function Home() {
+const Home: FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -70,4 +71,6 @@ export default function Home() {
       <Footer />
     </div>
   );
-}
+};
+
+export default Home;
