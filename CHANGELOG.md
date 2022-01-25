@@ -1,4 +1,13 @@
-# 0.1.0 (2022-01-17)
+# [1.1.0](https://github.com/avneesh0612/next-starter/compare/v0.1.0...v1.1.0) (2022-01-25)
+
+
+### Features
+
+* add tailwind prettier plugin ([d910e6e](https://github.com/avneesh0612/next-starter/commit/d910e6ebba61160aacdff659dd959338c64a8c69))
+
+
+
+# [0.1.0](https://github.com/avneesh0612/next-starter/compare/71521e02730986cea8551c95d16de4cac3d004c1...v0.1.0) (2022-01-17)
 
 
 ### Bug Fixes
